@@ -1,0 +1,164 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+My CSS
+*/
+
+
+nav li {
+  display: inline-block;
+  margin: 10px 10px;
+  vertical-align: top;
+  text-transform: none;
+  justify-content: flex-end;
+}
+
+nav li a {
+	text-transform: none;
+}
+
+.loc-image {
+	height: 250px;
+	width: 250px;
+	justify-content: stretch;
+}
+
+.nav-header {
+	font-size: 24px;
+	display: flex;
+	justify-content: left;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.blurb {
+	font: 400 18px/24px "Caveat", cursive, "Open Sans", Helvetica, Arial, sans-serif;
+	padding-top: 2px;
+}
+
+.headshot {
+	border-top: 8px;
+	float: left;
+	border-radius: 50%;
+	width: auto;
+	height: 100px;
+	margin: 5px;
+	vertical-align: middle;
+}
+
+.coding-background {
+	background-image: src="assets/images/coding/binary.jpg" ;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.travel-location {
+	height: 300px;
+}
+
+.travel-location img {
+	height: auto;
+}
+
+header {
+	background-color: rgb(245, 217, 183);
+	color: black;
+}
+
+body {
+	background-color: rgb(56, 56, 61);
+	color: white;
+	font: 400 16px/22px "Cabin", "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+
+
+h1 {
+	font-size: 28px;
+	color: rgb(245, 217, 183);
+}
+
+h3 {
+	font-size: 18px;
+}
+
+img {
+  position: inline;
+  margin-left: 10px
+  vertical-align: middle
+  height: auto;
+}
+
+a {
+	color: rgb(255, 253, 133);
+}
+
+nav ul li a {
+	color: rgb(23, 23, 181);
+	text-transform: none
+}
+
+nav ul li a:hover {
+	color: rgb(52, 103, 181);
+	text-transform: bold;
+}
+
+section, article {
+	background-color: rgb(102, 189, 232);
+	color: black;
+	margin: 50px;
+	padding: 25px;
+}
+
+p {
+	padding: 10px;
+}
